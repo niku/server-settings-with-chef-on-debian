@@ -10,10 +10,26 @@
       ]
     }
   },
+  "rbenv": {
+    "upgrade": "sync",
+    "rubies": [
+      "2.1.0"
+    ],
+    "global": "2.1.0",
+    "gems": {
+      "2.1.0": [
+        {
+          "name": "bundler"
+        }
+      ]
+    }
+  },
   "run_list": [
     "chef-solo-search",
     "sudo",
     "build-essential",
-    "git"
+    "git",
+    "ruby_build",
+    "rbenv::system"
   ]
 }
