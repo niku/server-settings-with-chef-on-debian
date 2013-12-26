@@ -1,5 +1,17 @@
 {
+  "authorization": {
+    "sudo": {
+      "users": [
+        "niku"
+      ],
+      "passwordless": true,
+      "sudores_defaults": [
+        "env_reset"
+      ]
+    }
+  },
   "run_list": [
-    "chef-solo-search"
+    "chef-solo-search",
+    "sudo"
   ]
 }
