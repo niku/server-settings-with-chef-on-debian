@@ -30,6 +30,7 @@
     "build-essential",
     "git",
     "ruby_build",
-    "rbenv::system"
+    "rbenv::system",
+    "nginx"
   ]
 }
