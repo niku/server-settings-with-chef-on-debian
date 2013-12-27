@@ -28,6 +28,7 @@
     "chef-solo-search",
     "sudo",
     "build-essential",
+    "libssl-dev",
     "git",
     "ruby_build",
     "rbenv::system",
