@@ -2,5 +2,6 @@
   "id": "niku",
   "ssh_keys": [
     "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCh1Y0cwhQneiLr1UlQVexHgjHRfrl+Ei99jsznEj7HxmZDWamcvfc+rQW/0Ug+3v9irghWeEircGXIBKv7RN7ZjX627FIZ7MX+r1pXOIEowrBDHZeCbLoIW9q2k+Two94AU/GZxeHhivzJW009qgmolX2M2uFnnZrGLlQi/2N/GJ0aw+n1G1Fp+9+jv8xeORroqGW6cUHTWvqr9MB/Uo9n9LrKckER8oedHJZsl8WuF2Yv1piyt2wQPMl1DFm1I+2PzrFZTkYJzc/iuL4Plyc+qCq73StrCQoVJsamFLri/byP0goHAKQn54YeAiujSLzdSgMOn31ecZSIB+Ron5uJ niku"
-  ]
+  ],
+  "sudo_privilege": "ALL=NOPASSWD:ALL"
 }

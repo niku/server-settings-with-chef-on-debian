@@ -1,15 +1,4 @@
 {
-  "authorization": {
-    "sudo": {
-      "users": [
-        "niku"
-      ],
-      "passwordless": true,
-      "sudores_defaults": [
-        "env_reset"
-      ]
-    }
-  },
   "rbenv": {
     "upgrade": "sync",
     "rubies": [
@@ -26,7 +15,7 @@
   },
   "run_list": [
     "chef-solo-search",
-    "sudo",
+    "site-user",
     "build-essential",
     "libssl-dev",
     "git",
