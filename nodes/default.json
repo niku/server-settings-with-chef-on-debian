@@ -21,6 +21,7 @@
     "git",
     "ruby_build",
     "rbenv::system",
+    "site-rbenv",
     "nginx"
   ]
 }
