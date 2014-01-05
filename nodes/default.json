@@ -22,6 +22,6 @@
     "ruby_build",
     "rbenv::system",
     "site-rbenv",
-    "nginx"
+    "site-nginx-passenger"
   ]
 }
